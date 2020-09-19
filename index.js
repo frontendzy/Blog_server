@@ -8,7 +8,7 @@ app.use(express.json())
 app.set('secret', 'asfiuhewrknew')
 
 require('./routes/admin')(app)
-require('./routes/web')(app)
+require('./routes/webs')(app)
 require('./plugins/db')(app)
 
 
